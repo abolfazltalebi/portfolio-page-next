@@ -29,7 +29,7 @@ export default function WhyChoos() {
                                 </div>
                                 <div>
                                     <p className="text-sm text-Grey-60 line-clamp-6 leading-normal" style={{ wordBreak: "break-all" }}>
-                                        {sItem.caption}
+                                        {sItem.caption} 
                                     </p>
                                 </div>
                             </div>
