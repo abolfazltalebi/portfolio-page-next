@@ -1,0 +1,15 @@
+import pic1 from '/public/image/icon/Profile.svg';
+import pic2 from '/public/image/icon/Profile-1.svg';
+import pic3 from '/public/image/icon/Profile-2.svg';
+import pic4 from '/public/image/icon/Profile-3.svg';
+import pic5 from '/public/image/icon/Profile-4.svg';
+import pic6 from '/public/image/icon/Profile-5.svg';
+
+export const AboutSectionItems = [
+    { id: 1, title: 'SquareUp has been Instrumental in Transforming our Online Presence. ', caption: 'Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients event experiences.', userName: 'John Smith', job: 'CEO of EventMasters', website: '/', image: pic1 },
+    { id: 2, title: 'Working with SquareUp was a breeze.', caption: 'They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUps expertise and professionalism have made them a trusted technology partner.', userName: 'Sarah Johnson', job: 'COO of ProTech Solutions.', website: '/', image: pic2 },
+    { id: 3, title: 'SquareUp developed a comprehensive booking and reservation system for our event management company', caption: 'Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations and enhanced our clients   event experiences.', userName: 'Mark Thompson', job: 'CEO of EventMasters', website: '', image: pic3 },
+    { id: 4, title: 'ProTech Solutions turned to SquareUp to automate our workflow', caption: 'They delivered an exceptional custom software solution. The system has significantly increased our productivity and reduced manual errors. SquareUps expertise and professionalism have made them a trusted technology partner.', userName: 'Laura Adams', job: 'COO of ProTech Solutions.', website: '', image: pic4 },
+    { id: 5, title: 'SquareUp designed and developed a captivating web portal for showcasing our real estate listings.', caption: 'The platform is visually appealing and easy to navigate, allowing potential buyers to find their dream homes effortlessly. SquareUps expertise in the real estate industry is unmatched.', userName: 'Michael Anderson', job: 'Founder of Dream Homes Realty.', website: '', image: pic5 },
+    { id: 6, title: 'FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans.', caption: 'SquareUps team developed an intuitive and feature-rich app that has helped our users stay motivated and achieve their fitness goals. We highly recommend SquareUp for any health and fitness app development needs.', userName: 'Emily Turner', job: 'CEO of FitLife Tracker', website: '', image: pic6 }
+]

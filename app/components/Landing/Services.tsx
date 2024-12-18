@@ -21,7 +21,7 @@ export default function Services() {
                     serviceItems.map((sItem) => {
                         return (
                             <div className="p-6 flex flex-col gap-5 border border-neutral-800" key={sItem.id}>
-                                <div className="size-12 bg-Grey-10 shadow rounded-xl flex items-center justify-center text-Green-50 ">{sItem.icon}</div>
+                                <div className="size-12 bg-gradient-to-b from-[#242424] to-[#242424] shadow rounded-xl flex items-center justify-center text-Green-50 ">{sItem.icon}</div>
                                 <div className="space-y-4">
                                     <h2 className="text-white text-xl font-medium">
                                         {sItem.title}
