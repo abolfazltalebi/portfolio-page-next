@@ -1,5 +1,6 @@
 import AboutSection from "~/components/Landing/AboutSection";
 import ActionSection from "~/components/Landing/ActionSection";
+import ContactForm from "~/components/Landing/ContactForm";
 import FaqSection from "~/components/Landing/FaqSection";
 import Footer from "~/components/Footer/Footer";
 import Header from "~/components/Header/Header";
@@ -19,7 +20,8 @@ export default function Layout() {
                 <WhyChoos />
                 <AboutSection />
                 <FaqSection />
-                <ActionSection/>
+                <ActionSection />
+                <ContactForm />
             </main>
             <Footer />
         </div>
